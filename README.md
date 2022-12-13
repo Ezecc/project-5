@@ -65,7 +65,7 @@ The files can be exucuted as follows:
 
 - Run the Churn Library script as follows:
 
-      ```$ ipython churn_library.```
+      `$ ipython churn_library.`
 
   This performs the following tasks:
 
