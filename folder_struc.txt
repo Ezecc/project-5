@@ -1,0 +1,30 @@
+.
+├── churn_library.py
+├── churn_notebook.ipynb
+├── churn_script_logging_and_tests.py
+├── data
+│   └── bank_data.csv
+├── folder_struc.txt
+├── Guide.ipynb
+├── images
+│   ├── eda
+│   │   ├── churn_distribution.png
+│   │   ├── customer_age_distribution.png
+│   │   ├── heatmap.png
+│   │   ├── marital_status_distribution.png
+│   │   └── total_transaction_distribution.png
+│   └── results
+│       ├── feature_importances.png
+│       ├── logistic_results.png
+│       ├── rf_results.png
+│       └── roc_curve_result.png
+├── logs
+│   └── churn_library.log
+├── models
+│   ├── logistic_model.pkl
+│   └── rfc_model.pkl
+├── README.md
+├── requirements_py3.6.txt
+└── requirements_py3.8.txt
+
+6 directories, 21 files

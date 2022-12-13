@@ -1,0 +1,19 @@
+2022-12-13 12:31:26,166 - root - INFO: Testing import_data: SUCCESS
+2022-12-13 12:31:26,166 - root - INFO: Rows: 10127	Columns: 22
+2022-12-13 12:31:27,727 - root - INFO: Testing perform_eda function: SUCCESS
+2022-12-13 12:31:27,727 - root - INFO: File churn_distribution.png is available
+2022-12-13 12:31:27,728 - root - INFO: File customer_age_distribution.png is available
+2022-12-13 12:31:27,728 - root - INFO: File marital_status_distribution.png is available
+2022-12-13 12:31:27,728 - root - INFO: File total_transaction_distribution.png is available
+2022-12-13 12:31:27,728 - root - INFO: File heatmap.png is available
+2022-12-13 12:31:27,789 - root - INFO: Testing encoder_helper(data_frame, category_lst=[]): SUCCESS
+2022-12-13 12:31:28,325 - root - INFO: Testing encoder_helper(data_frame, category_lst=cat_columns, response=None): SUCCESS
+2022-12-13 12:31:28,774 - root - INFO: Testing encoder_helper(data_frame, category_lst=cat_columns, response='Churn'): SUCCESS
+2022-12-13 12:31:29,258 - root - INFO: Testing perform_feature_engineering. `Churn` column is present: SUCCESS
+2022-12-13 12:31:29,258 - root - INFO: Testing perform_feature_engineering. DataFrame sizes are consistent: SUCCESS
+2022-12-13 12:33:11,822 - root - INFO: File logistic_model.pkl is available
+2022-12-13 12:33:11,822 - root - INFO: File rfc_model.pkl is available
+2022-12-13 12:33:11,823 - root - INFO: File roc_curve_result.png is available
+2022-12-13 12:33:11,823 - root - INFO: File rf_results.png is available
+2022-12-13 12:33:11,823 - root - INFO: File logistic_results.png is available
+2022-12-13 12:33:11,823 - root - INFO: File feature_importances.png is available
