@@ -67,7 +67,13 @@ The files can be exucuted as follows:
 
       ```$ ipython churn_library.```
 
-  This performs the following tasks: - loads the data - perform categorical data encoding - Creates EDA figures and save them in the ./images/eda - Perform feature engineering on the provided data - Train the Random Forest and Logistic Regression models and save them in the ./models file. It also generates the roc curves which are saved in ./images/results/ - perform feature importance for the random forest model and save the generated figure in ./images/results
+  This performs the following tasks:
+
+  - loads the data - perform categorical data encoding
+  - Creates EDA figures and save them in the ./images/eda
+  - Perform feature engineering on the provided data
+  - Train the Random Forest and Logistic Regression models and save them in the ./models file. It also generates the roc curves which are saved in ./images/results/
+  - perform feature importance for the random forest model and save the generated figures in ./images/results
 
 - Run the churn_script_logging_and_tests.py script as follows:
 
@@ -75,4 +81,4 @@ The files can be exucuted as follows:
 
   This perfoms the following tasks:
 
-  - executes various tests on churn library functions and saves the logs in ./logs/churn_library_test.log
+  - executes various tests on churn library functions and saves the logs in ./logs/churn_library.log
